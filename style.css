@@ -1,0 +1,117 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 90vh;
+    font-family: Open Sans, sans-serif;
+    background: #f1f1f1;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+.form__wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 35px;
+}
+
+.form__img{
+    height: 500px;
+    width: 500px;
+}
+
+.form__img > img{
+    height: 500px;
+    width: auto;
+}
+
+.form__content{
+    padding: 10px;
+}
+
+.form__title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.login__link{
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__div{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+label{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 15px;
+    font-size: 16px;
+    border-color: 1px solid rgb(75, 74, 74);
+    border-radius: 5px;
+    outline: none;
+}
+
+.form__submit{
+    margin-top: 15px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(14, 14, 144);
+    box-shadow: 0 5px 10px 12px rgba(56, 45, 45, 0.3));
+}
+
+.signup__social{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.form__social{
+    margin-top: 10px;
+}
+
+.form__social > span{
+    margin-right: 10px;
+}
+span >img{
+    height: 40px;
+    width: 40px;
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 9px rgba(240, 231, 231,.3);
+    padding: 5px;
+    cursor: pointer;
+}
